@@ -1,0 +1,8 @@
+github.com/zhengyi13/prober v0.0.0-20210219184752-1832e984ae19 h1:Et5WRK4ElPNMIW8hennQZcAtXq4dI/YVFE6firBOTJ4=
+github.com/zhengyi13/prober v0.0.0-20210219184752-1832e984ae19/go.mod h1:qkO0+L2dFal6Ef3BT1jetGLeLwZr3M2wD4MamFlmkNg=
+github.com/zhengyi13/prober v1.0.0 h1:R0Yfn/lXWtdgrtJ+V2dhOKrcwZJY1B7zNWv50Wh+PWQ=
+github.com/zhengyi13/prober v1.0.0/go.mod h1:qkO0+L2dFal6Ef3BT1jetGLeLwZr3M2wD4MamFlmkNg=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
