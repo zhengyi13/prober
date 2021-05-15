@@ -2,9 +2,9 @@ package prober
 
 import (
 	"crypto/tls"
+	"fmt"
 	"log"
 )
-
 
 // Basic type is a HostPort string like "localhost:8443"
 type HostPort string
@@ -18,8 +18,7 @@ func Probe(hp HostPort) (timestamp int64, err error) {
 	}
 	conn, err := tls.Dial("tcp", string(hp), &config)
 	if err != nil {
-		log.Printf("ERROR dial: %s\n", err)
-		return timestamp, err
+        return timestamp, fmt.Errorf("dial failure: %w", err)
 	}
 	defer conn.Close()
 	log.Printf("client: connected to %s\n ", conn.RemoteAddr())
